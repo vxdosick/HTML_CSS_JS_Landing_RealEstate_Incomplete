@@ -1,0 +1,114 @@
+@media (max-width:900px) {
+    .header__burger {
+        display: inline;
+    }
+    .header__menu {
+        display: none;
+    }
+    .header__contact {
+        display: none;
+    }
+    .succesful__subtextblock {
+        display: block;
+        max-width: 550px;
+        margin: 0 auto;
+    }
+    .succesful__about {
+        width: 215px;
+        margin: 0 auto;
+    }
+    .succesful__subtext {
+        text-align: center;
+    }
+    .succesful__leftbackgraund {
+        max-width: 300px;
+        margin: 0 auto;
+        display: block;
+    }
+    .services > div button {
+        display: flex;
+        width: 55px;
+        height: 55px;
+    }
+
+}
+@media (max-width:1000px) {
+    .title {
+        flex-direction: column;
+    }
+    .title__title, .services__title, .projects__title {
+        font-size: 40px;
+    }
+    .services__title {
+        margin: 0 auto;
+    }
+    .projects__title {
+        text-align: center;
+    }
+    .services__text {
+        text-align: center;
+        margin: 0 auto;
+    }
+    .title__img-none {
+        width: 350px;
+        display: flex;
+        margin: 0 auto;
+    }
+    .succesful__title {
+        font-size: 40px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .services__alltext {
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:1100px) {
+    header {
+        gap: 50px;
+    }
+}
+@media (max-width:1200px) {
+    .title__img-none {
+        display: block;
+        width: 350px;
+    }
+    .title__img {
+        display: none;
+    }
+    .title {
+        display: flex;
+        align-items: center;
+    }
+    .title__buymenu {
+        position: static;
+    }
+    .title__market {
+        max-width: 335px;
+        flex-direction: column;
+        gap: 32px;
+    }
+    .title__search {
+        width: 295px;
+        height: 50px;
+    }
+    .succesful {
+        display: block;
+    }
+    .succesful__rightbackgraund {
+        display: none;
+    }
+}
+@media (max-width: 1300px) {
+    .title {
+        gap: 20px;
+    }
+    .services__alltext {
+        gap: 30px;
+    }
+}
+@media (max-width: 1600px) {
+    header, .succesful, .title, .services, .projects {
+        padding: 0px 20px;
+    }
+}
